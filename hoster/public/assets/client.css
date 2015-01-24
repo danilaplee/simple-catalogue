@@ -1,0 +1,10 @@
+html, body 
+{	
+  margin: 20px;
+}
+.selectize-control
+{
+	width: 200px;
+	top:13px;
+	left:10px;
+}
