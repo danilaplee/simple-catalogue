@@ -6,7 +6,7 @@ define("client/adapters/application",
 
     var apiNamespace = 'store';
 
-    var apiUrl = 'http://0.0.0.0:3000';
+    var apiUrl = 'http://104.236.91.69:3000';
 
     var AppAdapter = DS.RESTAdapter.extend({
         namespace: apiNamespace,
@@ -785,7 +785,7 @@ define("client/tests/routes/category.jshint",
     "use strict";
     module('JSHint - routes');
     test('routes/category.js should pass jshint', function() { 
-      ok(false, 'routes/category.js should pass jshint.\nroutes/category.js: line 17, col 14, Unnecessary semicolon.\nroutes/category.js: line 34, col 11, Missing semicolon.\nroutes/category.js: line 43, col 37, Missing semicolon.\n\n3 errors'); 
+      ok(false, 'routes/category.js should pass jshint.\nroutes/category.js: line 18, col 14, Unnecessary semicolon.\nroutes/category.js: line 35, col 11, Missing semicolon.\nroutes/category.js: line 44, col 37, Missing semicolon.\n\n3 errors'); 
     });
   });
 define("client/tests/routes/merchant.jshint", 
