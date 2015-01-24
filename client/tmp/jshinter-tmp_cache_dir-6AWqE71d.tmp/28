@@ -1,0 +1,4 @@
+module('JSHint - controllers');
+test('controllers/category.js should pass jshint', function() { 
+  ok(false, 'controllers/category.js should pass jshint.\ncontrollers/category.js: line 12, col 43, Missing semicolon.\ncontrollers/category.js: line 17, col 43, Missing semicolon.\ncontrollers/category.js: line 22, col 42, Missing semicolon.\ncontrollers/category.js: line 25, col 3, Missing semicolon.\n\n4 errors'); 
+});

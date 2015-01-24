@@ -1,0 +1,1 @@
+/Users/danila/dev/experiments/swift-gift/client/tmp/class-tmp_cache_dir-8Z0lLWoS.tmp/assets/client.js

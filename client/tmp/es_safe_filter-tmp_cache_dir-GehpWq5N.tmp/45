@@ -1,0 +1,46 @@
+import Ember from 'ember';
+
+var ShopController = Ember.ArrayController.extend({
+	selection: null,
+  	valueObserver: function() {
+  		var selection = this.get('selection')
+  		if(selection != null)
+  		{
+  			console.log(selection);
+  			var product = this.store.filter('product', function(product) 
+	        {
+	            var id = product.get('id');
+	            
+	            if(id === selection.id)
+	            {
+	                return product;
+	            }
+
+	        });
+  			// this.store.filter.
+  		}
+  	}.observes('selection'),
+	products: function() 
+	{
+		this.get('model');
+		return this.get('model');
+
+	}.property('model'),
+	merchants: function() 
+	{
+		return this.store.find('merchant')
+
+	}.property('model'),
+	category: function() 
+	{
+		return this.store.find('category')
+
+	}.property('model'),
+	searchProducts: function() 
+	{
+		return this.store.find('product')
+
+	}.property('model')
+})
+
+export default ShopController;

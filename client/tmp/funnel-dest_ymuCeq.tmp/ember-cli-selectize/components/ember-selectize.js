@@ -1,0 +1,1 @@
+/Users/danila/dev/experiments/swift-gift/client/node_modules/ember-cli-selectize/addon/components/ember-selectize.js

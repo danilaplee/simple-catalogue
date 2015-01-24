@@ -1,0 +1,4 @@
+module('JSHint - controllers');
+test('controllers/shop.js should pass jshint', function() { 
+  ok(false, 'controllers/shop.js should pass jshint.\ncontrollers/shop.js: line 6, col 48, Missing semicolon.\ncontrollers/shop.js: line 31, col 43, Missing semicolon.\ncontrollers/shop.js: line 36, col 43, Missing semicolon.\ncontrollers/shop.js: line 41, col 42, Missing semicolon.\ncontrollers/shop.js: line 44, col 3, Missing semicolon.\ncontrollers/shop.js: line 14, col 20, \'id\' is not defined.\ncontrollers/shop.js: line 10, col 19, \'product\' is defined but never used.\ncontrollers/shop.js: line 12, col 21, \'slug\' is defined but never used.\n\n8 errors'); 
+});

@@ -1,0 +1,28 @@
+import Ember from 'ember';
+
+var ShopController = Ember.ArrayController.extend({
+	selection: null,
+	products: function() 
+	{
+		this.get('model');
+		return this.get('model');
+
+	}.property('model'),
+	merchants: function() 
+	{
+		return this.store.find('merchant')
+
+	}.property('model'),
+	category: function() 
+	{
+		return this.store.find('category')
+
+	}.property('model'),
+	searchProducts: function() 
+	{
+		return this.store.find('product')
+
+	}.property('model')
+})
+
+export default ShopController;

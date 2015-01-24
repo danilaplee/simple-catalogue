@@ -1,0 +1,4 @@
+module('JSHint - routes');
+test('routes/category.js should pass jshint', function() { 
+  ok(false, 'routes/category.js should pass jshint.\nroutes/category.js: line 13, col 14, Unnecessary semicolon.\nroutes/category.js: line 14, col 22, \'slug\' is already defined.\nroutes/category.js: line 38, col 11, Missing semicolon.\nroutes/category.js: line 47, col 37, Missing semicolon.\n\n4 errors'); 
+});

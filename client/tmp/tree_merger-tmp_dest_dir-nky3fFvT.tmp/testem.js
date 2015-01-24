@@ -1,0 +1,1 @@
+/Users/danila/dev/experiments/swift-gift/client/node_modules/ember-cli/lib/broccoli/testem.js

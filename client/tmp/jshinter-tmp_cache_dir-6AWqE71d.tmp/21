@@ -1,0 +1,4 @@
+module('JSHint - routes');
+test('routes/category.js should pass jshint', function() { 
+  ok(false, 'routes/category.js should pass jshint.\nroutes/category.js: line 11, col 24, Expected an assignment or function call and instead saw an expression.\nroutes/category.js: line 11, col 25, Missing semicolon.\nroutes/category.js: line 12, col 14, Unnecessary semicolon.\nroutes/category.js: line 37, col 11, Missing semicolon.\nroutes/category.js: line 46, col 37, Missing semicolon.\n\n5 errors'); 
+});

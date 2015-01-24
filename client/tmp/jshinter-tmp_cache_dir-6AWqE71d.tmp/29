@@ -1,0 +1,4 @@
+module('JSHint - controllers');
+test('controllers/merchant.js should pass jshint', function() { 
+  ok(false, 'controllers/merchant.js should pass jshint.\ncontrollers/merchant.js: line 12, col 43, Missing semicolon.\ncontrollers/merchant.js: line 17, col 43, Missing semicolon.\ncontrollers/merchant.js: line 22, col 42, Missing semicolon.\ncontrollers/merchant.js: line 25, col 3, Missing semicolon.\n\n4 errors'); 
+});
