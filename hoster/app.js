@@ -5,7 +5,7 @@ var logger = require('morgan');
 var connect = require('connect');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var compression = require('compression');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -21,7 +21,9 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.compress());
+app.use(compression({
+  threshold: 512
+}))
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
